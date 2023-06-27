@@ -1,0 +1,52 @@
+.wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:steelblue;
+    box-sizing: border-box;
+}
+
+.wrapper-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: comic, Helvetica, sans-serif;
+}
+
+.list-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    padding: 1rem;
+    min-width: 7rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+
+    >button {
+        width: 80px;
+        font-style: 80px;
+        border-style: none;
+        display: flex;
+        align-items: center;
+        background-color: skyblue;
+        border-radius: 8px;
+        height: 30px;
+        padding-left: 24px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        cursor: pointer;
+    }
+}
+
+.nav-item:hover {
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+}
